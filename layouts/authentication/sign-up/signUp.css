@@ -1,0 +1,30 @@
+.card {
+  /* display: flex;
+  flex-direction: column; */
+  min-height: "100%";
+  border: 2px solid #835959;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(112, 83, 83, 0.1);
+  width: "100%"; /* Adjust the width as needed */
+}
+
+.card-image {
+  position: relative;
+  width: "100%";
+  height: "20rem";
+  object-fit: cover; /* Preserve aspect ratio while covering the card */
+  border: 2px solid yellow;
+}
+
+.card-content {
+  border: 2px solid #0ce617;
+  background-color: #fff;
+  position: absolute;
+}
+
+.meri {
+  margin-left: auto;
+  margin-right: auto;
+  
+}
